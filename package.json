@@ -1,7 +1,7 @@
 {
-  "name": "@hyperlane-xyz/registry",
+  "name": "@fuel-infrastructure/fuel-hyperlane-registry",
   "description": "A collection of configs, artifacts, and schemas for Hyperlane",
-  "version": "10.15.0",
+  "version": "0.0.2",
   "dependencies": {
     "yaml": "2.4.5",
     "zod": "^3.21.2"
@@ -76,5 +76,9 @@
     "version:prepare": "yarn changeset version && yarn install --no-immutable",
     "version:check": "yarn changeset status"
   },
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.1",
+  "resolutions": {
+    "@hyperlane-xyz/sdk": "npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.2",
+    "@hyperlane-xyz/utils": "npm:@fuel-infrastructure/fuel-hyperlane-utils@0.0.2"
+  }
 }
