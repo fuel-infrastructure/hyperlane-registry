@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiUrl: https://api-sepolia.etherscan.io/api
+  - apiKey: R8MRZ8W5BNPEVH8DJXW1S52DSSMKG6GJAD
+    apiUrl: https://api-sepolia.etherscan.io/api
     family: etherscan
     name: Etherscan
     url: https://sepolia.etherscan.io
@@ -24,6 +25,4 @@ nativeToken:
   symbol: ETH
 protocol: ethereum
 rpcUrls:
-  - http: https://ethereum-sepolia.publicnode.com
-  - http: https://ethereum-sepolia.blockpi.network/v1/rpc/public
-  - http: https://rpc.sepolia.org
+  - http: https://spectrum-02.simplystaking.xyz/bWFudGFzLXdvcmstMDItYzllYzJkZDI/DiMaN54WnHBW7g/ethereum/testnet/

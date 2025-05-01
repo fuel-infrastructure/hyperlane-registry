@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x378503b0e4e0695edd7e01363acdaab95d3961871d487c7f077d1825fdc2704a"
+    chainName: fueltestnet
+    collateralAddressOrDenom: "0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471"
+    decimals: 6
+    name: USDC
+    standard: FuelHypCollateral
+    symbol: USDC

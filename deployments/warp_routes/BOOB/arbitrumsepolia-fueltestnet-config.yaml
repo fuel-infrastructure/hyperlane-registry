@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x4a103CF42ad4E1b15ea6Edb66e95F90535bd97a1"
+    chainName: arbitrumsepolia
+    connections:
+      - token: fuel|fueltestnet|0x0f852a2741682feeef958a5719d9c370f20660c4e25cac9f3f58cac19809e722
+    decimals: 12
+    name: booby
+    standard: EvmHypSynthetic
+    symbol: boob
+  - addressOrDenom: "0x0f852a2741682feeef958a5719d9c370f20660c4e25cac9f3f58cac19809e722"
+    chainName: fueltestnet
+    connections:
+      - token: ethereum|arbitrumsepolia|0x4a103CF42ad4E1b15ea6Edb66e95F90535bd97a1
+    decimals: 12
+    name: booby
+    standard: FuelHypSynthetic
+    symbol: boob

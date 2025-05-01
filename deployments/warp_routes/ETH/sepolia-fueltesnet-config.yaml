@@ -1,0 +1,17 @@
+tokens:
+  - chainName: sepolia
+    standard: EvmHypNative
+    decimals: 18
+    symbol: ETH
+    name: Ether
+    addressOrDenom: "0xb94903d736789fd36c7f77f86e89a486bb4c11c8"
+    connections:
+      - token: fuel|fueltestnet|0x43c94eff3e3d8832d5e69cb441ba94c6cd2ad83fb496497aee6f5b78b5b02ba0
+  - chainName: fueltestnet
+    standard: FuelHypSynthetic
+    decimals: 9
+    symbol: ETH
+    name: Ether
+    addressOrDenom: "0x43c94eff3e3d8832d5e69cb441ba94c6cd2ad83fb496497aee6f5b78b5b02ba0"
+    connections:
+      - token: ethereum|sepolia|0xb94903d736789fd36c7f77f86e89a486bb4c11c8
